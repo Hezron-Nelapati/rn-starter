@@ -4,7 +4,7 @@ import { View, StyleSheet, Text, Button } from 'react-native';
 const CounterScreen = () => {
 
     const [counter, setCounter] = useState(0);
-
+    
     return(
         <View>
             <Text style={styles.textStyle}>Welcome To CounterScreen</Text>
