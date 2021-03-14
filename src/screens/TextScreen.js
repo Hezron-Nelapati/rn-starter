@@ -18,6 +18,7 @@ const TextScreen = () => {
                 }}
             />
             <Text> Your name is {name} </Text>
+            { name.length < 4 ? <Text>Name must alteast be 4 characters</Text> : null }
         </View>
     );
 };
